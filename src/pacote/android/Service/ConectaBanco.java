@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 public class ConectaBanco {
 
-	private SQLiteDatabase sQLiteDatabase;
+	private static SQLiteDatabase sQLiteDatabase;
 	 
 	
 	public SQLiteDatabase getBanco() {
